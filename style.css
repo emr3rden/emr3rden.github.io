@@ -17,7 +17,7 @@ body {
 
 
 
-.container {
+.container, .container-fluid {
     padding: 0;
 }
 
@@ -25,7 +25,7 @@ body {
     width: 1100px;
 }
 
-.row, .col, a, svg {
+.row, .col, h1, p, a, span, svg {
     margin: 0;
     padding: 0;
 }
@@ -91,4 +91,320 @@ header {
 
 .header-contain-menu svg {
     padding: 0px 0px 3px 1px;
+}
+
+
+
+
+
+
+
+
+
+
+main {
+    margin: 100px auto auto auto;
+}
+
+
+
+.main-contain-aboutme-items {
+    margin: auto auto 100px auto;
+}
+
+
+
+.main-contain-summary {
+    margin: 0px 0px 50px 0px;
+}
+
+.main-contain-summary p, .main-contain-hobbies p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+}
+
+.main-contain-summary a, .main-contain-hobbies a {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+
+    text-decoration: underline;
+
+    transition: color 0.4s;
+}
+
+.main-contain-summary a:link, .main-contain-hobbies a:link, .main-contain-summary a:visited, .main-contain-hobbies a:visited {
+    color: white;
+}
+
+.main-contain-summary a:hover, .main-contain-hobbies a:hover, .main-contain-summary a:active, .main-contain-hobbies a:active {
+    color: #858585;
+}
+
+.main-contain-hobbies p:not(:last-child) {
+    margin: 0px 0px 30px 0px;
+}
+
+.main-contain-hobbies svg {
+    padding: 0px 0px 3px 1px;
+}
+
+
+
+
+
+.main-contain-skills-items {
+    padding: 100px 0px 100px 0px;
+
+    background-color: #181827;
+}
+
+
+
+.main-contain-skills-title {
+    margin: 0px 0px 35px 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-contain-skills-title h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 35px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+
+
+.main-contain-skills-cards, .skill-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-card {
+    margin: 15px;
+
+    background-color: #2a2c3c;
+
+    min-width: 175px;
+    min-height: 80px;
+
+    border: 3px solid #3d3d50;
+    border-radius: 50px;
+
+    transition: all 0.4s;
+}
+
+.skill-card:hover{ 
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.skill-card span {
+    font-size: 18px
+}
+
+.skill-card svg {
+    margin: 0px 10px 0px 0px;
+}
+
+
+
+
+
+.main-contain-projects-items {
+    margin: 100px auto 100px auto;
+}
+
+
+
+.main-contain-projects-title {
+    margin: 0px 0px 25px 0px;
+
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.main-contain-projects-title h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 35px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.main-contain-projects-title a {
+    font-size: 16px;
+    
+    text-decoration: none;
+}
+
+.main-contain-projects-title a:link, .main-contain-projects-title a:visited {
+    color: white;
+}
+
+.main-contain-projects-title a:hover, .main-contain-projects-title a:active {
+    text-decoration: underline;
+}
+
+
+
+.project-card {
+    padding: 30px;
+
+    background-color: #2a2c3c;
+
+    min-height: 250px;
+
+    border-radius: 10px;
+}
+
+.project-card a {
+    font-size: 19px;
+
+    text-decoration: none;
+
+    transition: color 0.4s;
+}
+
+.project-cards-1 .col:nth-child(1) .project-card {
+    margin: 0px 15px 30px 0px;
+
+    border-left: 8px solid #7EED9B;
+    border-right: 8px solid #7EED9B;
+}
+
+.project-cards-1 .col:nth-child(1) .project-card a:link, .project-cards-1 .col:nth-child(1) .project-card a:visited {
+    color: #7EED9B;
+}
+
+.project-cards-1 .col:nth-child(1) .project-card a:hover, .project-cards-1 .col:nth-child(1) .project-card a:active {
+    text-decoration: underline;
+}
+
+.project-cards-1 .col:nth-child(2) .project-card {
+    margin: 0px 0px 30px 15px;
+
+    border-left: 8px solid #fff958;
+    border-right: 8px solid #fff958;
+}
+
+.project-cards-1 .col:nth-child(2) .project-card a:link, .project-cards-1 .col:nth-child(2) .project-card a:visited {
+    color: #fff958;
+}
+
+.project-cards-1 .col:nth-child(2) .project-card a:hover, .project-cards-1 .col:nth-child(2) .project-card a:active {
+    text-decoration: underline;
+}
+
+.project-cards-2 .col:nth-child(1) .project-card {
+    margin: 0px 15px 15px 0px;
+
+    border-left: 8px solid #dd8ffc;
+    border-right: 8px solid #dd8ffc;
+}
+
+.project-cards-2 .col:nth-child(1) .project-card a:link, .project-cards-2 .col:nth-child(1) .project-card a:visited {
+    color: #dd8ffc;
+}
+
+.project-cards-2 .col:nth-child(1) .project-card a:hover, .project-cards-2 .col:nth-child(1) .project-card a:active {
+    text-decoration: underline;
+}
+
+.project-cards-2 .col:nth-child(2) .project-card {
+    margin: 0px 0px 15px 15px;
+
+    border-left: 8px solid #60CDF8;
+    border-right: 8px solid #60CDF8;
+}
+
+.project-cards-2 .col:nth-child(2) .project-card a:link, .project-cards-2 .col:nth-child(2) .project-card a:visited {
+    color: #60CDF8;
+}
+
+.project-cards-2 .col:nth-child(2) .project-card a:hover, .project-cards-2 .col:nth-child(2) .project-card a:active {
+    text-decoration: underline;
+}
+
+.project-card svg {
+    margin: 0px 0px 3px 1px;
+}
+
+.project-card p {
+    margin: 15px 0px 0px 0px;
+
+    font-size: 17px;
+}
+
+
+
+
+
+.main-contain-tools-items {
+    padding: 100px 0px 100px 0px;
+
+    background-color: #181827;
+}
+
+
+
+.main-contain-programs-title, .main-contain-extensions-title {
+    margin: 0px 0px 35px 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-contain-programs-title h1, .main-contain-extensions-title h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 35px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+
+
+.main-contain-programs-cards, .program-card, .main-contain-extensions-cards, .extension-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.program-card, .extension-card {
+    margin: 15px;
+
+    background-color: #2a2c3c;
+
+    min-width: 175px;
+    min-height: 80px;
+
+    border: 3px solid #3d3d50;
+    border-radius: 50px;
+
+    transition: all 0.4s;
+}
+
+.program-card:hover, .extension-card:hover { 
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.main-contain-programs-cards a, .main-contain-extensions-cards a {
+    font-size: 18px;
+
+    text-decoration: none;
+
+    transition: color 0.4s;
+}
+
+.main-contain-programs-cards a:link, .main-contain-programs-cards a:visited, .main-contain-extensions-cards a:link, .main-contain-extensions-cards a:visited {
+    color: white;
+}
+
+.main-contain-programs-cards a:hover, .main-contain-programs-cards a:active, .main-contain-extensions-cards a:hover, .main-contain-extensions-cards a:active {
+    text-decoration: underline;
 }
