@@ -25,7 +25,7 @@ body {
     width: 1100px;
 }
 
-.row, .col, h1, p, a, span, svg {
+.row, .col, h1, ul, p, a, span, svg {
     margin: 0;
     padding: 0;
 }
@@ -407,4 +407,55 @@ main {
 
 .main-contain-programs-cards a:hover, .main-contain-programs-cards a:active, .main-contain-extensions-cards a:hover, .main-contain-extensions-cards a:active {
     text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+.footer-contain-items {
+    padding: 50px 0px 50px 0px;
+}
+
+
+
+.footer-contain-socials ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    list-style-type: none;
+}
+
+
+
+.footer-contain-socials ul li a {
+    font-size: 16px;
+    letter-spacing: 1px;
+
+    text-decoration: none;
+
+    transition: color 0.4s;
+}
+
+.footer-contain-socials ul li:not(:last-child) {
+    margin: 0px 75px 0px 0px;
+}
+
+.footer-contain-socials ul li a:link, .footer-contain-socials ul li a:visited {
+    color: white;
+}
+
+.footer-contain-socials ul li a:hover, .footer-contain-socials ul li a:active {
+    color: #858585;
+}
+
+.footer-contain-socials ul li svg {
+    margin: 0px 10px 0px 0px;
 }
