@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700&family=Caveat:wght@700&family=Roboto+Slab&family=Work+Sans:wght@300&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Baloo Tamma 2', cursive;
+    background-color: #1F1F2F;
+    color: white;
+}
+
+
+
+.container {
+    padding: 0;
+}
+
+.container {
+    width: 1100px;
+}
+
+.row, .col, a, svg {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+header {
+    margin: 25px auto auto auto;
+}
+
+
+
+.header-contain-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.header-contain-name, .header-contain-name a {
+    font-family: 'Caveat', cursive;
+    font-size: 80px;
+
+    text-decoration: none;
+
+    transition: color 0.4s;
+}
+
+.header-contain-name a:link, .header-contain-name a:visited {
+    color: white;
+}
+
+.header-contain-name a:hover, .header-contain-name a:active {
+    color: #858585;
+}
+
+
+
+.header-contain-menu, .header-contain-menu a {
+    font-size: 20px;
+    letter-spacing: 1px;
+    
+    text-decoration: none;
+
+    transition: color 0.4s;
+}
+
+.header-contain-menu a:link, .header-contain-menu a:visited {
+    color: white;
+}
+
+.header-contain-menu a:hover, .header-contain-menu a:active {
+    color: #858585;
+}
+
+.header-contain-menu svg {
+    padding: 0px 0px 3px 1px;
+}
