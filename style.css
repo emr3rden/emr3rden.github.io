@@ -459,3 +459,856 @@ main {
 .footer-contain-socials ul li svg {
     margin: 0px 10px 0px 0px;
 }
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+
+    .container {
+        width: auto;
+    }
+
+
+
+
+    
+    header {
+        margin: 5px 15px auto 15px;
+    }
+
+
+
+    .header-contain-items {
+        align-items: baseline;
+    }
+
+    
+    
+    .header-contain-name, .header-contain-name a {
+        font-size: 45px;
+    }
+
+    
+
+    .header-contain-menu, .header-contain-menu a {
+        font-size: 15px;
+        letter-spacing: normal;
+    }
+
+    .header-contain-menu svg {
+        padding: 2px 0px 5px 1px;
+    }
+
+
+
+
+
+
+
+
+
+
+    main {
+        margin: 30px auto auto auto;
+    }
+
+
+
+    .main-contain-aboutme-items {
+        margin: auto 15px 50px 15px;
+    }
+
+    
+
+    .main-contain-summary {
+        margin: 0px 0px 30px 0px;
+    }
+
+    .main-contain-summary p, .main-contain-hobbies p {
+        font-size: 16px;
+    }
+
+    .main-contain-summary a, .main-contain-hobbies a {
+        font-size: 16px;
+    }
+
+    .main-contain-hobbies p:not(:last-child) {
+        margin: 0px 0px 15px 0px;
+    }
+
+    .main-contain-hobbies svg {
+        padding: 2px 0px 4px 0px;
+    }
+
+
+
+
+
+    .main-contain-skills-items {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+
+
+    .main-contain-skills-title {
+        margin: 0px 0px 15px 0px;
+    }
+
+    .main-contain-skills-title h1 {
+        font-size: 23px;
+    }
+
+
+
+    .skill-card {
+        margin: 10px;
+    
+        min-width: 150px;
+        min-height: 60px;
+    }
+
+    .skill-card span {
+        font-size: 16px
+    }
+
+    .skill-card svg {
+        margin: 0px 5px 0px 0px;
+    }
+
+
+
+
+
+    .main-contain-projects-items {
+        margin: 50px 15px 50px 15px;
+    }
+
+
+
+    .main-contain-projects-title {
+        margin: 0px 0px 15px 0px;
+    }
+
+    .main-contain-projects-title h1 {
+        font-size: 23px;
+    }
+
+    .main-contain-projects-title a {
+        font-size: 15px;
+    }
+
+
+
+    .project-card {
+        padding: 15px;
+
+        min-height: auto;
+    }
+
+    .project-card a {
+        font-size: 16px;
+    }
+
+    .project-cards-1, .project-cards-2 {
+        display: block;
+    }
+
+    .project-cards-1 .col:nth-child(1) .project-card {
+        margin: 0px 0px 15px 0px;
+    
+        border-left: 5px solid #7EED9B;
+        border-right: 5px solid #7EED9B;
+    }
+    
+    .project-cards-1 .col:nth-child(2) .project-card {
+        margin: 0px 0px 15px 0px;
+    
+        border-left: 5px solid #fff958;
+        border-right: 5px solid #fff958;
+    }
+    
+    .project-cards-2 .col:nth-child(1) .project-card {
+        margin: 0px 0px 15px 0px;
+    
+        border-left: 5px solid #dd8ffc;
+        border-right: 5px solid #dd8ffc;
+    }
+    
+    .project-cards-2 .col:nth-child(2) .project-card {
+        margin: 0px;
+    
+        border-left: 5px solid #60CDF8;
+        border-right: 5px solid #60CDF8;
+    }
+    
+    .project-card svg {
+        padding: 1px 0px 3px 0px;
+    }
+    
+    .project-card p {
+        font-size: 16px;
+    }
+
+
+
+
+
+    .main-contain-tools-items {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+
+
+    .main-contain-programs-title, .main-contain-extensions-title {
+        margin: 0px 0px 15px 0px;
+    }
+
+    .main-contain-programs-title h1, .main-contain-extensions-title h1 {
+        font-size: 20px;
+        letter-spacing: normal;
+    }
+
+
+
+    .program-card, .extension-card {
+        margin: 10px;
+    
+        min-width: 140px;
+        min-height: 60px;
+    }
+
+    .main-contain-programs-cards a, .main-contain-extensions-cards a {
+        font-size: 15px;
+    }
+
+
+
+
+
+
+
+
+
+
+    footer {
+        margin: 0px 15px 0px 15px;
+    }
+    
+
+
+    .footer-contain-items {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+
+
+    .footer-contain-socials ul li a {
+        font-size: 15px;
+        letter-spacing: normal;
+    }
+
+    .footer-contain-socials ul li:not(:last-child) {
+        margin: 0px 10px 0px 0px;
+    }
+
+    .footer-contain-socials svg {
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) and (min-width: 577px) {
+
+    .container {
+        width: 540px;
+    }
+
+
+
+
+    
+    header {
+        margin: 10px auto auto auto;
+    }
+
+
+
+    .header-contain-name, .header-contain-name a {
+        font-size: 55px;
+    }
+
+    
+
+    .header-contain-menu, .header-contain-menu a {
+        font-size: 18px;
+    }
+
+    .header-contain-menu svg {
+        padding: 3px 0px 4px 1px;
+    }
+
+
+
+
+
+
+
+
+
+
+    main {
+        margin: 50px auto auto auto;
+    }
+
+
+
+    .main-contain-aboutme-items {
+        margin: auto auto 65px auto;
+    }
+
+    
+
+    .main-contain-summary {
+        margin: 0px 0px 35px 0px;
+    }
+
+    .main-contain-summary p, .main-contain-hobbies p {
+        font-size: 18px;
+    }
+
+    .main-contain-summary a, .main-contain-hobbies a {
+        font-size: 18px;
+    }
+
+    .main-contain-hobbies p:not(:last-child) {
+        margin: 0px 0px 20px 0px;
+    }
+
+    .main-contain-hobbies svg {
+        padding: 2px 0px 4px 0px;
+    }
+
+
+
+
+
+    .main-contain-skills-items {
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+
+
+
+    .main-contain-skills-title {
+        margin: 0px 0px 20px 0px;
+    }
+
+    .main-contain-skills-title h1 {
+        font-size: 27px;
+    }
+
+
+
+    .skill-card {
+        margin: 10px;
+    
+        min-width: 155px;
+        min-height: 65px;
+    }
+
+    .skill-card span {
+        font-size: 16px
+    }
+
+    .skill-card svg {
+        margin: 0px 5px 0px 0px;
+    }
+
+
+
+
+
+    .main-contain-projects-items {
+        margin: 65px auto 65px auto;
+    }
+
+
+
+    .main-contain-projects-title {
+        margin: 0px 0px 18px 0px;
+    }
+
+    .main-contain-projects-title h1 {
+        font-size: 27px;
+    }
+
+    .main-contain-projects-title a {
+        font-size: 15px;
+    }
+
+
+
+    .project-card {
+        padding: 17px;
+
+        min-height: auto;
+    }
+
+    .project-card a {
+        font-size: 17px;
+    }
+
+    .project-cards-1, .project-cards-2 {
+        display: block;
+    }
+
+    .project-cards-1 .col:nth-child(1) .project-card {
+        margin: 0px 0px 20px 0px;
+    
+        border-left: 6px solid #7EED9B;
+        border-right: 6px solid #7EED9B;
+    }
+    
+    .project-cards-1 .col:nth-child(2) .project-card {
+        margin: 0px 0px 20px 0px;
+    
+        border-left: 6px solid #fff958;
+        border-right: 6px solid #fff958;
+    }
+    
+    .project-cards-2 .col:nth-child(1) .project-card {
+        margin: 0px 0px 20px 0px;
+    
+        border-left: 6px solid #dd8ffc;
+        border-right: 6px solid #dd8ffc;
+    }
+    
+    .project-cards-2 .col:nth-child(2) .project-card {
+        margin: 0px;
+    
+        border-left: 6px solid #60CDF8;
+        border-right: 6px solid #60CDF8;
+    }
+    
+    .project-card svg {
+        padding: 1px 0px 2px 0px;
+    }
+    
+    .project-card p {
+        font-size: 16px;
+    }
+
+
+
+
+
+    .main-contain-tools-items {
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+
+
+
+    .main-contain-programs-title, .main-contain-extensions-title {
+        margin: 0px 0px 20px 0px;
+    }
+
+    .main-contain-programs-title h1, .main-contain-extensions-title h1 {
+        font-size: 24px;
+    }
+
+
+
+    .program-card, .extension-card {
+        margin: 10px;
+    
+        min-width: 155px;
+        min-height: 65px;
+    }
+
+    .main-contain-programs-cards a, .main-contain-extensions-cards a {
+        font-size: 16px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .footer-contain-items {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+
+
+    .footer-contain-socials ul li:not(:last-child) {
+        margin: 0px 30px 0px 0px;
+    }
+
+    .footer-contain-socials svg {
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+
+    .container {
+        width: 720px;
+    }
+
+
+
+
+    
+    header {
+        margin: 15px auto auto auto;
+    }
+
+
+
+    .header-contain-name, .header-contain-name a {
+        font-size: 65px;
+    }
+
+    
+
+    .header-contain-menu, .header-contain-menu a {
+        font-size: 19px;
+    }
+
+    .header-contain-menu svg {
+        padding: 1px 0px 5px 1px;
+    }
+
+
+
+
+
+
+
+
+
+
+    main {
+        margin: 70px auto auto auto;
+    }
+
+
+
+    .main-contain-aboutme-items {
+        margin: auto auto 80px auto;
+    }
+
+    
+
+    .main-contain-summary {
+        margin: 0px 0px 40px 0px;
+    }
+
+    .main-contain-summary p, .main-contain-hobbies p {
+        font-size: 19px;
+    }
+
+    .main-contain-summary a, .main-contain-hobbies a {
+        font-size: 19px;
+    }
+
+    .main-contain-hobbies p:not(:last-child) {
+        margin: 0px 0px 25px 0px;
+    }
+
+    .main-contain-hobbies svg {
+        padding: 2px 0px 4px 0px;
+    }
+
+
+
+
+
+    .main-contain-skills-items {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+
+
+    .main-contain-skills-title {
+        margin: 0px 0px 25px 0px;
+    }
+
+    .main-contain-skills-title h1 {
+        font-size: 31px;
+    }
+
+
+
+    .skill-card {
+        margin: 12px;
+    
+        min-width: 165px;
+        min-height: 70px;
+    }
+
+    .skill-card span {
+        font-size: 17px
+    }
+
+    .skill-card svg {
+        margin: 0px 7px 0px 0px;
+    }
+
+
+
+
+
+    .main-contain-projects-items {
+        margin: 80px auto 80px auto;
+    }
+
+
+
+    .main-contain-projects-title {
+        margin: 0px 0px 21px 0px;
+    }
+
+    .main-contain-projects-title h1 {
+        font-size: 31px;
+    }
+
+    .main-contain-projects-title a {
+        font-size: 15px;
+    }
+
+
+
+    .project-card {
+        padding: 22px;
+
+        min-height: auto;
+    }
+
+    .project-card a {
+        font-size: 18px;
+    }
+
+    .project-cards-1, .project-cards-2 {
+        display: block;
+    }
+
+    .project-cards-1 .col:nth-child(1) .project-card {
+        margin: 0px 0px 25px 0px;
+    
+        border-left: 7px solid #7EED9B;
+        border-right: 7px solid #7EED9B;
+    }
+    
+    .project-cards-1 .col:nth-child(2) .project-card {
+        margin: 0px 0px 25px 0px;
+    
+        border-left: 7px solid #fdf84f;
+        border-right: 7px solid #fdf84f;
+    }
+    
+    .project-cards-2 .col:nth-child(1) .project-card {
+        margin: 0px 0px 25px 0px;
+    
+        border-left: 7px solid #F64E4C;
+        border-right: 7px solid #F64E4C;
+    }
+    
+    .project-cards-2 .col:nth-child(2) .project-card {
+        margin: 0px;
+    
+        border-left: 7px solid #60CDF8;
+        border-right: 7px solid #60CDF8;
+    }
+    
+    .project-card svg {
+        padding: 1px 0px 2px 0px;
+    }
+    
+    .project-card p {
+        font-size: 17px;
+    }
+
+
+
+
+
+    .main-contain-tools-items {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+
+
+    .main-contain-programs-title, .main-contain-extensions-title {
+        margin: 0px 0px 25px 0px;
+    }
+
+    .main-contain-programs-title h1, .main-contain-extensions-title h1 {
+        font-size: 28px;
+    }
+
+
+
+    .program-card, .extension-card {
+        margin: 12px;
+    
+        min-width: 165px;
+        min-height: 70px;
+    }
+
+    .main-contain-programs-cards a, .main-contain-extensions-cards a {
+        font-size: 17px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .footer-contain-items {
+        padding-top: 39px;
+        padding-bottom: 39px;
+    }
+
+
+
+    .footer-contain-socials ul li:not(:last-child) {
+        margin: 0px 50px 0px 0px;
+    }
+
+    .footer-contain-socials svg {
+        margin: 0px 5px 0px 0px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) and (min-width: 993px) {
+
+    .container {
+        width: 960px;
+    }
+
+
+
+
+    
+    header {
+        margin: 20px auto auto auto;
+    }
+
+    
+    
+    .header-contain-name, .header-contain-name a {
+        font-size: 75px;
+    }
+
+
+
+
+
+
+
+
+
+
+    main {
+        margin: 90px auto auto auto;
+    }
+
+
+
+    .main-contain-skills-title {
+        margin: 0px 0px 30px 0px;
+    }
+
+
+
+
+
+    .project-card {
+        padding: 27px;
+
+        min-height: 300px;
+    }
+
+
+
+
+
+    .main-contain-programs-title, .main-contain-extensions-title {
+        margin: 0px 0px 30px 0px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .footer-contain-items {
+        padding-top: 46px;
+        padding-bottom: 46px;
+    }
+
+
+
+    .footer-contain-socials ul li:not(:last-child) {
+        margin: 0px 70px 0px 0px;
+    }
+
+
+    
+}
