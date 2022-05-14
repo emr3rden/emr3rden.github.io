@@ -252,11 +252,13 @@ main {
 
 
 .project-card {
+    position: relative;
+
     padding: 30px;
 
     background-color: #2a2c3c;
 
-    min-height: 250px;
+    min-height: 235px;
 
     border-radius: 10px;
 }
@@ -334,7 +336,7 @@ main {
 }
 
 .project-card p {
-    margin: 15px 0px 0px 0px;
+    margin: 15px 0px 15px 0px;
 
     font-size: 17px;
 }
@@ -1278,7 +1280,17 @@ main {
     .project-card {
         padding: 27px;
 
-        min-height: 300px;
+        min-height: 270px;
+    }
+
+    .project-card-detail {
+        position: absolute;
+    
+        bottom: 30px;
+    }
+    
+    .project-card-detail p {
+        margin: 0;
     }
 
 
@@ -1309,6 +1321,27 @@ main {
         margin: 0px 70px 0px 0px;
     }
 
+}
 
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1201px) {
+
+    .project-card-detail {
+        position: absolute;
     
+        bottom: 30px;
+    }
+    
+    .project-card-detail p {
+        margin: 0;
+    }
+
 }
