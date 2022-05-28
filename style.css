@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700&family=Caveat:wght@700&family=Roboto+Slab&family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Caveat:wght@700&family=Raleway:wght@600&family=Work+Sans:wght@300&display=swap');
 
 
 
@@ -169,7 +169,7 @@ main {
 }
 
 .main-contain-skills-title h1 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 35px;
     color: white;
     letter-spacing: 1px;
@@ -229,7 +229,7 @@ main {
 }
 
 .main-contain-projects-title h1 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 35px;
     color: white;
     letter-spacing: 1px;
@@ -362,7 +362,7 @@ main {
 }
 
 .main-contain-programs-title h1, .main-contain-extensions-title h1 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 35px;
     color: white;
     letter-spacing: 1px;
